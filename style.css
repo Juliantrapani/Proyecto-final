@@ -233,10 +233,15 @@ background-image: none;}
     
     /* rankings */
     .main-container{
-        margin: 150px auto;
+        margin: 50px auto;
         width:600px;
         padding: 0px;
 
+    }
+
+    .ranking{
+        display: flex;
+        justify-content: space-between;
     }
     table{
         background-color:white;
