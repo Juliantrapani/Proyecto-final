@@ -79,10 +79,17 @@
     
 
 }
+
 .informacion{
     color: white;
     font-size: 25px;
 }
+
+.videos{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 
 
@@ -115,8 +122,9 @@ background-image: none;}
     /* Novedades */
     
     .title{
+        margin: 10px;
         color: white;
-        font-size: 15px;
+        font-size: 20px;
 
     }
     .titulo{
@@ -124,9 +132,25 @@ background-image: none;}
         text-decoration: underline ;
         color: white;
     }
+
+    .title-right{
+        display:flex;
+      justify-content: right;
+       }
+    .fecha {
+       
+        display: flex;
+        justify-content: right;
+    }
+
+    .title-left{
+        display: block;
+        justify-content: left;
+       }
     
     .p{ color: white;
         font-size: 25px;
+        margin: 30px;
     }
 
     
@@ -135,10 +159,9 @@ background-image: none;}
 
 
     .Novedades{
-        color: white;
-        padding: 50px;
+        margin: 50px ;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
     }
     
     
