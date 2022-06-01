@@ -236,38 +236,7 @@ background-image: none;}
     }
     
     
-    .teams{
-        
-        
-        padding: 30px;
-        display: flex;
-        justify-content: center;
-
-
-    }
-    .equipos div{ color: white;}
-
-
-     .equipos{border: solid;
-        width: 600%;
-        display: flex;
-        justify-content: space-around;
-
-    }
-    .teams-logos{
-        display: flex;
-        justify-content:space-around ;
-
-    }
-    .teams-equipos{
-        width: 600%;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
-
-    /* jugadores */
+    
 
     * {
 
@@ -345,8 +314,9 @@ background-image: none;}
     }
 
     .ranking{
+        padding: 20px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     table{
         background-color:white;
