@@ -9,6 +9,7 @@
     position: sticky;
     top: 0;
     background-image: url(imagenes/fondo\ 3.jpg);
+    padding: 0px;
     
 }
 
@@ -51,6 +52,7 @@
     background-color: rgb(45, 45, 46);
 }
 
+
 .menu {
     padding: 0;
     width: 90%;
@@ -62,6 +64,9 @@
    list-style: none;
    border: 2px solid;
    }
+
+
+
 
 .imagenes{
     color: black;
