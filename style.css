@@ -5,19 +5,10 @@
     padding:0 ;
 }
 
-.item-styky{
-    position: sticky;
-    top: 0;
-    background-image: url(imagenes/fondo\ 3.jpg);
-    padding: 0px;
-    
-}
 
 
-.logo {display: inline; 
-    width: 200px;
-    justify-content: flex-start;
-    background-image: none;}
+
+
 
 .fondo{background-image: url(Imagenes/fondo\ 4.jpg);
     font-family: 'Montserrat', sans-serif;
@@ -25,32 +16,12 @@
  
 
 
-.menu-principal {
-    
-    color: rgb(250, 245, 245);
-    padding: 40px;
-    display: flex;
-    justify-content: flex-end;
-    
-    
-   }
 
-.menu li a{
-    color:white ;
-    text-decoration: none;
-    padding: 20px;
-    display: block;
     
-}
-.menu li{
-    
-    text-align: center;
-    display: inline-block;
+   
 
-}
-.menu li a:hover{
-    background-color: rgb(45, 45, 46);
-}
+
+
 
 
 .menu {
@@ -422,11 +393,12 @@ background-image: none;}
 
 .page .foto-1{
     grid-area: foto-1;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .page .foto-2{
     grid-area: foto-2;
+    font-size: 13px;
 }
 
 .page .fin{
