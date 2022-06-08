@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fondo {
+  background-image: url(../Imagenes/fondo\ 4.jpg);
+  font-family: "Montserrat", sans-serif;
+}
+
+.menu {
+  padding: 0;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  list-style: none;
+  border: 2px solid;
+}
+
+.imagenes {
+  color: black;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.image {
+  border: solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.informacion {
+  color: white;
+  font-size: 25px;
+}
+
+.videos {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  width: 100px;
+  display: flex;
+  min-width: 1100px;
+}
+
+.carta {
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0);
+  cursor: default;
+  transition: all 1s ease;
+}
+
+.carta:hover {
+  box-shadow: 5px 5px 20px rgb(0, 0, 0);
+  transform: translate(0px);
+}
+
+.carta img {
+  width: 100%;
+  height: 210px;
+}
+
+.carta .contenido {
+  padding: 15px;
+  text-align: center;
+}
+
+.carta .contenido p {
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+
+.footer {
+  background-color: gray;
+}
+
+.footer li a {
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+
+.logo-final {
+  display: flex;
+  justify-content: center;
+}
+
+.contacto {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  display: inline;
+  width: 200px;
+  justify-content: flex-start;
+  background-image: none;
+}
+
+/* Novedades */
+.title {
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.titulo {
+  font-size: 30px;
+  text-decoration: underline;
+  color: white;
+}
+
+.title-right {
+  display: flex;
+  justify-content: right;
+}
+
+.fecha {
+  display: flex;
+  justify-content: right;
+}
+
+.title-left {
+  display: block;
+  justify-content: left;
+}
+
+.p {
+  color: white;
+  font-size: 25px;
+  margin: 30px;
+}
+
+.midle {
+  color: white;
+  font-size: 25px;
+}
+
+.Novedades {
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Novedad {
+  border: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Equipos */
+.title-teams {
+  color: white;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.acordeon input {
+  display: none;
+}
+
+.acordeon__titulo {
+  display: block;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid;
+}
+
+.acordeon__contenido {
+  display: flex;
+  justify-content: space-around;
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+  transition: all 0.5s;
+}
+
+.acordeon input:checked ~ .acordeon__contenido {
+  height: auto;
+  margin: 15px 0;
+}
+
+.jugadores-grid {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Eventos */
+.grid-container {
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: repeat(3, 1fr);
+  border: 2px solid rgb(241, 233, 233);
+  gap: 10px;
+}
+
+.grid-item {
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+}
+
+/* rankings */
+.main-container {
+  margin: 50px auto;
+  width: 600px;
+  padding: 0px;
+}
+
+.ranking {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+table {
+  background-color: white;
+  text-align: left;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: solid 1px black;
+  padding: 20px;
+}
+
+thead {
+  background-color: black;
+  border-bottom: solid 5px white;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+tr:hover td {
+  background-color: whitesmoke;
+  color: black;
+}
+
+/* Major */
+.page {
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "principal-title principal-title principal-title" "information information more-info" "foto-1 foto-2 more-info" "fin fin fin";
+}
+
+.page > div,
+.page .principal-title,
+.page .information,
+.page .more-info,
+.page .fin {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.page .principal-title {
+  background-color: rgb(117, 117, 223);
+  color: white;
+  grid-area: principal-title;
+}
+
+.font-size {
+  font-size: 30px;
+}
+
+.page .information {
+  grid-area: information;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.page .more-info {
+  grid-column: 3/4;
+  background-color: burlywood;
+  min-height: 100px;
+  grid-area: more-info;
+}
+
+.page .foto-1,
+.page .foto-2 {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page .foto-1 {
+  grid-area: foto-1;
+  font-size: 13px;
+}
+
+.page .foto-2 {
+  grid-area: foto-2;
+  font-size: 13px;
+}
+
+.page .fin {
+  background-color: grey;
+  color: azure;
+  grid-area: fin;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -10,7 +10,7 @@
 
 
 
-.fondo{background-image: url(Imagenes/fondo\ 4.jpg);
+.fondo{background-image: url(../Imagenes/fondo\ 4.jpg);
     font-family: 'Montserrat', sans-serif;
  }
  
@@ -121,7 +121,9 @@
 }
 
 
-
+.footer {
+    background-color: gray;
+}
 
 
 .footer li a {
@@ -184,20 +186,25 @@ background-image: none;}
         margin: 30px;
     }
 
+    .midle{
+        color: white;
+        font-size: 25px;}
+        
+
     
     
 
 
 
     .Novedades{
-        margin: 50px ;
+        margin: 0px ;
         display: flex;
         justify-content: space-around;
     }
     
     
     .Novedad {
-        border:   2px solid;
+        border:   1px ;
         display: flex;
         justify-content: center;
     }
@@ -409,11 +416,3 @@ background-image: none;}
 
 }
 
-@media screen and (max-width 768px) {
-    .page{
-        grid-template-areas:"principal-title principal-title principal-title"
-        "information information information"
-        "foto-1 foto-1 foto-2"
-        "fin fin fin" ;
-    }
-}
