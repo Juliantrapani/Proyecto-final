@@ -204,6 +204,46 @@ justify-content: flex-end;
     width: 200px;
     justify-content: flex-start;
 background-image: none;}
+@media ( max-width: 576px){
+    .imagenes{
+        display:flex;
+        
+    }
+    .informacion{
+        text-align: center;
+    }
+    .videos{
+        display: none;
+    }
+    .container-card{
+        display: flex;
+    }
+
+
+}
+@media(max-width:768px){
+    .imagenes{
+        display:block;
+        
+        
+    }
+    .informacion{
+        text-align: center;
+    }
+    .videos{
+        display: none;
+    }
+    .container-card{
+        display: flex;
+    }
+
+
+}
+
+
+
+
+
     
 
 
@@ -263,7 +303,31 @@ background-image: none;}
         border:   1px ;
         display: flex;
         justify-content: center;
+
     }
+
+    @media ( max-width: 576px){
+        .p{
+            
+            display: none;
+
+        }
+        .midle{
+            display: none;
+        }
+
+    }
+
+    @media ( max-width: 768px){
+        .p{
+            display: none;
+        }
+        .midle{
+            display: none;
+        }
+    }
+
+
 
     /* Equipos */
     
@@ -316,6 +380,15 @@ background-image: none;}
         justify-content: space-around;
 
     }
+
+    @media ( max-width: 576px){
+        .acordeon__contenido{
+            display:block;
+            justify-content: center;
+
+        }
+
+    }
     
 
 
@@ -360,6 +433,13 @@ background-image: none;}
         height: auto;
         margin: 15px 0;
     }
+
+    @media ( max-width: 576px){
+        .acordeon2__contenido{
+            display: block;
+            justify-content: center;
+        }
+    }
     
 
     
@@ -403,7 +483,19 @@ background-image: none;}
         background-color:whitesmoke;
         color: black;
     }
+    @media ( max-width: 576px){
+        .ranking{
+            display: block;
+            justify-content: center;
+        }
+    }
 
+    @media ( max-width: 768px){
+        .ranking{
+            display: block;
+            justify-content: center;
+        }
+    }
     
         
 
@@ -476,6 +568,44 @@ background-image: none;}
  .fin{
      padding: 20px;
  }
+
+ @media ( max-width: 576px){
+    
+    
+    .sidebar{
+        display: none;
+    }
+    
+    .more-info{
+        font-size: 10px;
+    }
+    .fin{
+        display: none;
+    }
+    .img{
+        display: none;
+    } 
+}
+
+@media ( max-width: 768px){
+    
+    
+    .sidebar{
+        display: none;
+    }
+    
+    .more-info{
+        font-size: 10px;
+    }
+    .fin{
+        display: none;
+    }
+    .img{
+        display: none;
+    } 
+}
+    
+
 
  
 
@@ -553,17 +683,17 @@ background-image: none;}
 
 .page .foto-1{
     grid-area: foto-1;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .page .foto-2{
     grid-area: foto-2;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .page .fin {
     background-color: grey;
     color: azure;
-    }
+    padding: 20px;}
     
    

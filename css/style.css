@@ -186,6 +186,34 @@
   background-image: none;
 }
 
+@media (max-width: 576px) {
+  .imagenes {
+    display: flex;
+  }
+  .informacion {
+    text-align: center;
+  }
+  .videos {
+    display: none;
+  }
+  .container-card {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .imagenes {
+    display: block;
+  }
+  .informacion {
+    text-align: center;
+  }
+  .videos {
+    display: none;
+  }
+  .container-card {
+    display: flex;
+  }
+}
 /* Novedades */
 .title {
   margin: 10px;
@@ -237,6 +265,22 @@
   justify-content: center;
 }
 
+@media (max-width: 576px) {
+  .p {
+    display: none;
+  }
+  .midle {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .p {
+    display: none;
+  }
+  .midle {
+    display: none;
+  }
+}
 /* Equipos */
 .title-teams {
   color: white;
@@ -283,6 +327,12 @@
   justify-content: space-around;
 }
 
+@media (max-width: 576px) {
+  .acordeon__contenido {
+    display: block;
+    justify-content: center;
+  }
+}
 /* Eventos */
 * {
   box-sizing: border-box;
@@ -320,6 +370,12 @@
   margin: 15px 0;
 }
 
+@media (max-width: 576px) {
+  .acordeon2__contenido {
+    display: block;
+    justify-content: center;
+  }
+}
 /* rankings */
 .main-container {
   margin: 50px auto;
@@ -360,6 +416,18 @@ tr:hover td {
   color: black;
 }
 
+@media (max-width: 576px) {
+  .ranking {
+    display: block;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .ranking {
+    display: block;
+    justify-content: center;
+  }
+}
 /* Major */
 * {
   margin: 0;
@@ -420,6 +488,34 @@ tr:hover td {
   padding: 20px;
 }
 
+@media (max-width: 576px) {
+  .sidebar {
+    display: none;
+  }
+  .more-info {
+    font-size: 10px;
+  }
+  .fin {
+    display: none;
+  }
+  .img {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .more-info {
+    font-size: 10px;
+  }
+  .fin {
+    display: none;
+  }
+  .img {
+    display: none;
+  }
+}
 .page {
   width: 90%;
   max-width: 1000px;
@@ -478,17 +574,18 @@ tr:hover td {
 
 .page .foto-1 {
   grid-area: foto-1;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .page .foto-2 {
   grid-area: foto-2;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .page .fin {
   background-color: grey;
   color: azure;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
