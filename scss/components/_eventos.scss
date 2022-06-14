@@ -1,0 +1,48 @@
+/* Eventos */
+* {
+
+    box-sizing: border-box;
+    
+  }
+.acordeon2 input{
+    display:none;
+    
+}
+.acordeon2__titulo{
+    display: block;
+    padding: 10px;
+    background-color:white;
+    color:black;
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+.acordeon2__titulo:hover{
+    background-color: gray;
+}
+
+
+.acordeon2__contenido {
+    display: flex;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    transition: all 0.5s;
+    color: white;
+   
+    
+}
+
+.acordeon2 input:checked ~ .acordeon2__contenido{
+    height: auto;
+    margin: 15px 0;
+}
+
+@media ( max-width: 576px){
+    .acordeon2__contenido{
+        display: block;
+        justify-content: center;
+    }
+}
+
+

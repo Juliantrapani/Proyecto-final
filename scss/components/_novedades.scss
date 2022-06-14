@@ -1,0 +1,78 @@
+/* Novedades */
+    
+.title{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+
+}
+.titulo{
+    font-size: 30px;
+    text-decoration: underline ;
+    color: white;
+}
+
+.title-right{
+    display:flex;
+  justify-content: right;
+   }
+.fecha {
+   
+    display: flex;
+    justify-content: right;
+}
+
+.title-left{
+    display: block;
+    justify-content: left;
+   }
+
+.p{ color: white;
+    font-size: 25px;
+    margin: 30px;
+}
+
+.midle{
+    color: white;
+    font-size: 25px;}
+    
+
+
+
+
+
+
+.Novedades{
+    margin: 0px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Novedad {
+    border:   1px ;
+    display: flex;
+    justify-content: center;
+
+}
+
+@media ( max-width: 576px){
+    .p{
+        
+        display: none;
+
+    }
+    .midle{
+        display: none;
+    }
+
+}
+
+@media ( max-width: 768px){
+    .p{
+        display: none;
+    }
+    .midle{
+        display: none;
+    }
+}

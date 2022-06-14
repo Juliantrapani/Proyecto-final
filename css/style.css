@@ -113,15 +113,15 @@
   padding: 10px;
   margin-top: 10px;
   text-decoration: none;
-  color: #2fb4cc;
-  border: 1px solid #2fb4cc;
+  color: black;
+  border: 1px solid black;
   border-radius: 4px;
   transition: all 400ms ease;
   margin-bottom: 5px;
 }
 
 .card .contenido-card a:hover {
-  background: #2fb4cc;
+  background: black;
   color: #fff;
 }
 
@@ -538,7 +538,7 @@ tr:hover td {
 }
 
 .page .principal-title {
-  background-color: rgb(117, 117, 223);
+  background-color: black;
   color: white;
   grid-area: principal-title;
 }
@@ -558,7 +558,7 @@ tr:hover td {
 
 .page .more-info {
   grid-column: 3/4;
-  background-color: burlywood;
+  background-color: orange;
   min-height: 100px;
   grid-area: more-info;
 }
@@ -583,7 +583,7 @@ tr:hover td {
 }
 
 .page .fin {
-  background-color: grey;
+  background-color: black;
   color: azure;
   padding: 20px;
 }
