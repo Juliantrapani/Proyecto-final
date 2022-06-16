@@ -173,35 +173,13 @@
     .gallery__item:nth-child(10){
         grid-row-start: span 2;}   
 
-
-
-.footer {
-    background-color: black;
-}
-
-
-.footer li a {
-    color: rgb(253, 253, 253);
-    text-decoration: none;
-}
-
-.logo-final {
-    display: flex;
-    justify-content: center;
-}
+        
 
 
 
 
-.contacto{color: white;
-display: flex;
-justify-content: flex-end;
-}
 
-.logo{display: inline; 
-    width: 200px;
-    justify-content: flex-start;
-background-image: none;}
+
 @media ( max-width: 576px){
     .imagenes{
         display:flex;
