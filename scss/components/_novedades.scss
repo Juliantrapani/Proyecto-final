@@ -2,14 +2,14 @@
     
 .title{
     margin: 10px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
 
 }
 .titulo{
     font-size: 30px;
     text-decoration: underline ;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .title-right{
@@ -27,14 +27,20 @@
     justify-content: left;
    }
 
-.p{ color: white;
+.p{ color: rgb(0, 0, 0);
     font-size: 25px;
     margin: 30px;
+    background-color: gray;
+    border: 3px solid;
+    border-radius: 10px;
 }
 
 .midle{
-    color: white;
-    font-size: 25px;}
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: gray;
+    border: 2px solid;
+    border-radius: 10px;}
     
 
 

@@ -2,7 +2,13 @@
 * {
 
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
     
+  }
+
+  .acordeon2{
+    background-color:grey;
   }
 .acordeon2 input{
     display:none;
@@ -28,10 +34,14 @@
     overflow: hidden;
     margin: 0;
     transition: all 0.5s;
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color: gray;
+    
+
    
     
 }
+
 
 .acordeon2 input:checked ~ .acordeon2__contenido{
     height: auto;
