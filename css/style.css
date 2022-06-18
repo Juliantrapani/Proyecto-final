@@ -125,6 +125,14 @@
   color: #fff;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .container-card {
+    flex-wrap: wrap;
+  }
+  .card {
+    margin: 15px;
+  }
+}
 .gallery-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
