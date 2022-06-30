@@ -238,14 +238,12 @@ tr:hover td {
 
 @media (max-width: 576px) {
   .resultados {
-    display: block;
-    justify-content: center;
+    width: 50px;
   }
 }
 @media (max-width: 768px) {
   .resultados {
-    display: block;
-    justify-content: center;
+    width: 300px;
   }
 }
 /* Novedades */
