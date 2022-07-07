@@ -247,6 +247,10 @@ tr:hover td {
   }
 }
 /* Novedades */
+.fondo {
+  background-image: url(/Imagenes/fondo-blanco-y-negro-de-la-textura-mármol-116329002.jpg);
+}
+
 .title {
   margin: 10px;
   color: rgb(0, 0, 0);
@@ -320,6 +324,10 @@ tr:hover td {
   }
 }
 /* Equipos */
+.fondo {
+  background-image: url(/Imagenes/fondo-blanco-y-negro-de-la-textura-mármol-116329002.jpg);
+}
+
 .title-teams {
   color: rgb(0, 0, 0);
   font-size: 25px;
@@ -380,6 +388,10 @@ tr:hover td {
   }
 }
 /* Eventos */
+.fondo {
+  background-image: url(/Imagenes/fondo-blanco-y-negro-de-la-textura-mármol-116329002.jpg);
+}
+
 * {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
@@ -430,6 +442,10 @@ tr:hover td {
   }
 }
 /* rankings */
+.fondo {
+  background-image: url(/Imagenes/fondo-blanco-y-negro-de-la-textura-mármol-116329002.jpg);
+}
+
 .main-container {
   margin: 50px auto;
   width: 600px;
@@ -500,6 +516,10 @@ tr:hover td {
   text-align: center;
   font-size: 2.9em;
   text-transform: uppercase;
+}
+
+.fondo {
+  background-image: url(/Imagenes/fondo-blanco-y-negro-de-la-textura-mármol-116329002.jpg);
 }
 
 .container-2 {
